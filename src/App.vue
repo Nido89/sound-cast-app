@@ -25,4 +25,8 @@ export default {
   }),
 };
 </script>
-
+<style>
+body{
+    background-color: aqua;
+}
+</style>

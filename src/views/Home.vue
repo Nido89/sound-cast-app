@@ -1,5 +1,7 @@
 <template>
-<div>Home
+<div>
+  <Sounds />
+  
   
 </div>
 
@@ -7,10 +9,12 @@
 
 <script>
 // @ is an alias to /src
-
+import Sounds from '@/components/Sounds';
 
 export default {
  
-  components: {}
+  components: {
+    Sounds
+    }
 }
 </script>
